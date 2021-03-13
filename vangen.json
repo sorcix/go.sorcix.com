@@ -1,0 +1,45 @@
+{
+	"domain": "go.sorcix.com",
+	"index": true,
+	"repositories": [
+		{
+			"prefix": "debug",
+			"type": "git",
+			"url": "https://gitlab.com/sorcix/debug.git"
+		},
+		{
+			"prefix": "guapo",
+			"type": "git",
+			"url": "https://gitlab.com/sorcix/guapo.git",
+			"subs": [
+				"transport",
+				"transport/ssh"
+			]
+		},
+		{
+			"prefix": "platform",
+			"type": "git",
+			"url": "https://gitea.sorcix.com/sorcix/platform.git"
+		},
+		{
+			"prefix": "uuid",
+			"type": "git",
+			"url": "https://gitea.sorcix.com/sorcix/uuid.git"
+		},
+		{
+			"prefix": "varnish",
+			"type": "git",
+			"url": "https://gitea.sorcix.com/sorcix/varnish.git"
+		},
+		{
+			"prefix": "webserver",
+			"type": "git",
+			"url": "https://gitea.sorcix.com/sorcix/webserver.git"
+		},
+		{
+			"prefix": "xdg",
+			"type": "git",
+			"url": "https://gitea.sorcix.com/sorcix/xdg.git"
+		}
+	]
+}
